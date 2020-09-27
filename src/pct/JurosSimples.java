@@ -19,7 +19,7 @@ public class JurosSimples {
         //Criação e instância do objeto de entrada
         Scanner entrada = new Scanner(System.in);
         
-        //Apresentação
+        //Apresentação de Juro Simples -- Camilla
         System.out.println("\n\t\t\t -- Juros Simples --\n");
         
         // Entrada
@@ -33,11 +33,28 @@ public class JurosSimples {
         //Processamento
         j = c * i * n / 100;
         
-        //Saída
+        //Saída 
         System.out.printf("\n %d * %d * %d / 100 = %d\n", c, i, n, j);
         
-               
+        //Apresentação de Cálculo de Capital -- Amanda
+        System.out.println("\n\t\t\t -- Cálculo de Capital --\n");
+        
+        //Entrada
+        System.out.print("Informe I: ");
+        i = entrada.nextInt();
+        System.out.print("Informe N: ");
+        n = entrada.nextInt();
+        System.out.print("Informe J: ");
+        j = entrada.nextInt();
+        
+        //Processamento
+        c = j /  (i / 100 * n);
+        
+        //Saída
+        System.out.printf("\n %d / ( %d / 100 * %d ) = %d\n", i, n, j, c);
+        
       
+
     }
     
 }
