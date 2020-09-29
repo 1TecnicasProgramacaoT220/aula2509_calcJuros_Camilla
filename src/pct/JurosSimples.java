@@ -53,7 +53,22 @@ public class JurosSimples {
         //Saída
         System.out.printf("\n %d / ( %d / 100 * %d ) = %d\n", i, n, j, c);
         
-      
+        //Apresentação de Cálculo do prazo -- Debora
+        System.out.println("\n\t\t\t -- Cálculo de Prazo --\n");
+        
+        //Entrada
+        System.out.print("Informe J: ");
+        j = entrada.nextInt();
+        System.out.print("Informe C: ");
+        c = entrada.nextInt();
+        System.out.print("Informe I: ");
+        i = entrada.nextInt();
+        
+        //Processamento
+        n = (int) (j / ((float)(c * i)/100));
+        
+        //Saída
+        System.out.printf("\n %d / ( %d * ( %d / 100 )) = %d\n", j, c, i, n);
 
     }
     
