@@ -71,5 +71,29 @@ public class JurosSimples {
         System.out.printf("\n %d / ( %d * ( %d / 100 )) = %d\n", j, c, i, n);
 
     }
-    
+       //Apresentação de calculo da taxa--Cecilia
+       System.out.println("\n\t\t\t -- Cálculo da taxa -- \n");
+       
+       //Entrada
+        System.out.print("Informe C: ");
+        C = entrada.nextInt();
+        System.out.print("Informe J: ");
+        j = entrada.nextInt();
+        System.out.print("Informe N: ");
+        n = entrada.nextInt();
+        
+        //Processamento
+        i= j/   (1000 * n ) * 100
+                
+         //Saída
+         System.out.printf("\n %d / ( %d * ( %d / 100 )) = %d\n", c, j, n);
+       
+
+
+
+        
+
+
+
+
 }
